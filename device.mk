@@ -16,6 +16,12 @@
 
 DEVICE_PATH := device/samsung/x1s
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl:64 \
+    android.hardware.bluetooth@1.0-service \
+    libbt-vendor:64
+
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440

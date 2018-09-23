@@ -18,6 +18,11 @@ include device/samsung/universal9830-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/x1s
 
+# Bluetooth
+BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/libbt_vndcfg.txt
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 
