@@ -21,6 +21,9 @@ DEVICE_PATH := device/samsung/x1s
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Kernel
+TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := x1s
 
