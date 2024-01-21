@@ -43,6 +43,9 @@ TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
 # OTA
 TARGET_OTA_ASSERT_DEVICE := x1s
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Wi-Fi
 BOARD_WLAN_BCMDHD_SAE                         := true
 BOARD_WLAN_DEVICE                             := bcmdhd
